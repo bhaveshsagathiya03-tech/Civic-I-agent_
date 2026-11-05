@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.docker.example
+!backend/.env.example
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/civic_i.db
+**/media/
+**/node_modules/
+**/dist/
+**/.vite/
+backend/models/*.pt
+backend/training/data.yaml
+backend/training/runs/
+backend/training/evaluation_results.json
+.DS_Store

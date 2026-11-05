@@ -1,0 +1,8 @@
+# Copy to data.yaml and replace paths with your prepared, labelled dataset.
+path: /absolute/path/to/civic-i-dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: pothole
+  1: garbage_accumulation
